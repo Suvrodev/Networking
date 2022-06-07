@@ -1,0 +1,36 @@
+10.10.10.1                                                  ClassA: 10.0.0.0 255.0.0.0
+192.168.0.1       							ClassB: 145.10.0.0 255.255.0.0
+192.168.1.1									ClassC: 192.168.0.0 255.255.255.0
+
+*********************
+ipconfig
+ping
+**********************
+
+
+
+************************
+Switch(2960)
+Go-> CLI
+and do
+EN
+show mac address
+mac-address
+mac-address-table
+**********************
+
+
+********************                                                               ***************Sir Router******************
+Router (2911) (WIC 2t)                                                                     (2811 Router)    (NM-2FE2W)      (Static-3 Right-Jetay Dhukbe and Left-jetay dhukbe)DMP
+192.168.1.1   192.168.1.1  -----    192.168.2.1    192.168.2.1                      				(SWIC-2T)	            Obvbiously 192.168.4.0
+   																			  (Dinamic Jar jar Like 192.168.1.0)All 0
+
+(Gigabit Ethernet)															
+192.168.1.9 (Like Another computer) --------   192.168.2.9 
+(One Router er 2 ta giga ethernet r 2 router 1 ta ethernet e same hobe)    
+
+Serial (192.168.3.1)-------------(192.168.3.2) (Like ANother enviroenment)
+
+(2 Router)
+Rip (192.168.1.0 && 192.168.3.0)  and (192.168.2.0 && 192.168.3.0)
+*****************************************************
